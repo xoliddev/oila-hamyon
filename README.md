@@ -11,7 +11,7 @@
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-structured%20output-8E75B2?logo=googlegemini&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-WAL-003B57?logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)
+[![Tests](https://github.com/xoliddev/oila-hamyon/actions/workflows/tests.yml/badge.svg)](https://github.com/xoliddev/oila-hamyon/actions/workflows/tests.yml)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 A Telegram bot that keeps the books for a whole family. Family members write (or **say**) what they
