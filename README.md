@@ -1,5 +1,7 @@
 # 👛 Oila Hamyon — AI family accountant for Telegram
 
+**English** · [O'zbekcha](README.uz.md)
+
 > *Oilaviy AI hisobchi: oddiy tilda yozing yoki ayting — bot har bir so'mni tiyinigacha hisoblab boradi.*
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
