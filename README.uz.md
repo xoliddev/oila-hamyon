@@ -2,6 +2,8 @@
 
 [English](README.md) · **O'zbekcha**
 
+[![▶ Jonli demo](https://img.shields.io/badge/%E2%96%B6_Jonli_demo-xoliddev.github.io-22b8f0?style=for-the-badge)](https://xoliddev.github.io/demos/oila-hamyon/)
+
 > *Oilaviy AI hisobchi: oddiy tilda yozing yoki ayting — bot har bir so'mni tiyinigacha hisoblab boradi.*
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
