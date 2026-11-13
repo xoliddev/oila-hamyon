@@ -1,0 +1,21 @@
+[Unit]
+Description=Oila Hamyon - oilaviy hisobchi Telegram bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=hamyon
+WorkingDirectory=/opt/oila-hamyon
+ExecStart=/opt/oila-hamyon/.venv/bin/python -m hamyon
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+# Kam xotirali bepul serverlar uchun
+MemoryMax=400M
+NoNewPrivileges=true
+ProtectSystem=full
+ReadWritePaths=/opt/oila-hamyon/data
+
+[Install]
+WantedBy=multi-user.target
