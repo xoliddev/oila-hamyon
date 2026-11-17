@@ -145,6 +145,7 @@ The bot uses long polling, so no domain, SSL or open port is needed.
 
 ```bash
 docker build -t oila-hamyon .
+mkdir -p data && sudo chown 10001 data   # the container runs as a non-root user (uid 10001)
 docker run -d --name hamyon --restart=always \
   --env-file .env -v "$(pwd)/data:/app/data" oila-hamyon
 ```

@@ -145,6 +145,7 @@ Bot long polling'da ishlaydi, shuning uchun domen, SSL yoki ochiq port kerak ema
 
 ```bash
 docker build -t oila-hamyon .
+mkdir -p data && sudo chown 10001 data   # konteyner root emas, uid 10001 foydalanuvchisi bilan ishlaydi
 docker run -d --name hamyon --restart=always \
   --env-file .env -v "$(pwd)/data:/app/data" oila-hamyon
 ```
